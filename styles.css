@@ -121,5 +121,16 @@ main{
     width: 100%;
     min-width: 288px;
     max-width: 900px;
-    margin:0 auto;
+    margin:0 auto;/*se posiciona en el centro*/
+}
+
+.main-exchange-container .backgroundImg{
+    width: 200px;
+    height:200px;
+    margin: 0 auto; /*se posiciona en el centro*/
+    margin-bottom: 50px;
+    background-image: url('./assets/img/Bitcoin.svg');
+    background-size: cover;
+    background-position: center; /*sin importar el contenedor se centra*/
+    background-repeat: no-repeat;
 }
