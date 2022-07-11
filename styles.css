@@ -324,7 +324,7 @@ main{
     height: 150px;
     margin: 15px auto;
     padding: 15px;
-    background-color: var(----warm-black);
+    background-color: var(--warm-black);
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0,0,0, 0.16)
 }
