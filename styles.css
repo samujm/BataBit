@@ -416,8 +416,18 @@ main{
     color: #757575;
 }
 
+/* Estilos para el slider */
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center;  /*intenta centrar automaticamente */
     width: 65%;
     min-width: 230px;
     max-width: 300px;
