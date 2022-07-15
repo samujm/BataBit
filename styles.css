@@ -343,6 +343,11 @@ main{
     background-image: url('./assets/icons/clock.svg');
 }
 
+.product-detail--card .eye{
+    background-image: url('./assets/icons/eye.svg');
+}
+
+
 .product-detail--card .dollar-sign{
     background-image: url('./assets/icons/dollar-sign.svg');
 }
